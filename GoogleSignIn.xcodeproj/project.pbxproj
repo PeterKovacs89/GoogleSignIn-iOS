@@ -17,13 +17,13 @@
 		A31FAECD1FD1BBAB00DD6944 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31FAECC1FD1BBAB00DD6944 /* Security.framework */; };
 		A31FAECF1FD1BBDA00DD6944 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31FAECE1FD1BBDA00DD6944 /* CoreText.framework */; };
 		A385C6DF1FD5620D00FCAD41 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A385C6DC1FD5620D00FCAD41 /* GoogleSignIn.bundle */; };
-		A385C6E01FD5620D00FCAD41 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A385C6DD1FD5620D00FCAD41 /* GoogleSignIn.framework */; };
-		A385C6E11FD5620D00FCAD41 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A385C6DE1FD5620D00FCAD41 /* GoogleSignInDependencies.framework */; };
 		A385C6E91FD5626B00FCAD41 /* GIDAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = A385C6E31FD5626B00FCAD41 /* GIDAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A385C6EA1FD5626B00FCAD41 /* GIDGoogleUser.h in Headers */ = {isa = PBXBuildFile; fileRef = A385C6E41FD5626B00FCAD41 /* GIDGoogleUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A385C6EB1FD5626B00FCAD41 /* GIDProfileData.h in Headers */ = {isa = PBXBuildFile; fileRef = A385C6E51FD5626B00FCAD41 /* GIDProfileData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A385C6EC1FD5626B00FCAD41 /* GIDSignIn.h in Headers */ = {isa = PBXBuildFile; fileRef = A385C6E61FD5626B00FCAD41 /* GIDSignIn.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A385C6ED1FD5626B00FCAD41 /* GIDSignInButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A385C6E71FD5626B00FCAD41 /* GIDSignInButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0D2F6092213D578000F0741 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D2F6072213D578000F0741 /* GoogleSignIn.framework */; };
+		D0D2F60A2213D578000F0741 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D2F6082213D578000F0741 /* GoogleSignInDependencies.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,14 +40,14 @@
 		A31FAECC1FD1BBAB00DD6944 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		A31FAECE1FD1BBDA00DD6944 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		A385C6DC1FD5620D00FCAD41 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
-		A385C6DD1FD5620D00FCAD41 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
-		A385C6DE1FD5620D00FCAD41 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
 		A385C6E31FD5626B00FCAD41 /* GIDAuthentication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GIDAuthentication.h; path = GoogleSignIn/GoogleSignIn.framework/Headers/GIDAuthentication.h; sourceTree = "<group>"; };
 		A385C6E41FD5626B00FCAD41 /* GIDGoogleUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GIDGoogleUser.h; path = GoogleSignIn/GoogleSignIn.framework/Headers/GIDGoogleUser.h; sourceTree = "<group>"; };
 		A385C6E51FD5626B00FCAD41 /* GIDProfileData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GIDProfileData.h; path = GoogleSignIn/GoogleSignIn.framework/Headers/GIDProfileData.h; sourceTree = "<group>"; };
 		A385C6E61FD5626B00FCAD41 /* GIDSignIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GIDSignIn.h; path = GoogleSignIn/GoogleSignIn.framework/Headers/GIDSignIn.h; sourceTree = "<group>"; };
 		A385C6E71FD5626B00FCAD41 /* GIDSignInButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GIDSignInButton.h; path = GoogleSignIn/GoogleSignIn.framework/Headers/GIDSignInButton.h; sourceTree = "<group>"; };
 		A385C6E81FD5626B00FCAD41 /* GoogleSignIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GoogleSignIn.h; path = GoogleSignIn/GoogleSignIn.framework/Headers/GoogleSignIn.h; sourceTree = "<group>"; };
+		D0D2F6072213D578000F0741 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		D0D2F6082213D578000F0741 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +62,9 @@
 				A31FAEC71FD1BB6000DD6944 /* UIKit.framework in Frameworks */,
 				A31FAEC51FD1BB5800DD6944 /* Foundation.framework in Frameworks */,
 				A31FAEB71FD1B9A100DD6944 /* SystemConfiguration.framework in Frameworks */,
-				A385C6E11FD5620D00FCAD41 /* GoogleSignInDependencies.framework in Frameworks */,
+				D0D2F6092213D578000F0741 /* GoogleSignIn.framework in Frameworks */,
+				D0D2F60A2213D578000F0741 /* GoogleSignInDependencies.framework in Frameworks */,
 				A31FAEB51FD1B99900DD6944 /* SafariServices.framework in Frameworks */,
-				A385C6E01FD5620D00FCAD41 /* GoogleSignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,9 +97,9 @@
 		A31FAEA01FD1B91C00DD6944 /* GoogleSignIn */ = {
 			isa = PBXGroup;
 			children = (
+				D0D2F6072213D578000F0741 /* GoogleSignIn.framework */,
+				D0D2F6082213D578000F0741 /* GoogleSignInDependencies.framework */,
 				A385C6DC1FD5620D00FCAD41 /* GoogleSignIn.bundle */,
-				A385C6DD1FD5620D00FCAD41 /* GoogleSignIn.framework */,
-				A385C6DE1FD5620D00FCAD41 /* GoogleSignInDependencies.framework */,
 				A31FAEA11FD1B91C00DD6944 /* GoogleSignIn.h */,
 				A31FAEA21FD1B91C00DD6944 /* Info.plist */,
 			);
